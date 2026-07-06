@@ -1,0 +1,19 @@
+/**
+ * Layout spacing tokens for gutters, sections, and component gaps.
+ * Extends Tailwind's default spacing scale (0.25rem base unit).
+ */
+@theme {
+  --spacing-gutter: 1rem;
+  --spacing-gutter-sm: 1.25rem;
+  --spacing-gutter-md: 1.5rem;
+  --spacing-gutter-lg: 2rem;
+
+  --spacing-section-sm: 3rem;
+  --spacing-section: 5rem;
+  --spacing-section-lg: 7.5rem;
+  --spacing-section-xl: 10rem;
+
+  --spacing-stack-sm: 1rem;
+  --spacing-stack: 1.5rem;
+  --spacing-stack-lg: 2.5rem;
+}

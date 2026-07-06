@@ -1,0 +1,13 @@
+/**
+ * Brand color tokens from docs/BRAND.md.
+ * Exposed as Tailwind utilities: bg-background, text-foreground, etc.
+ */
+@theme {
+  --color-background: #09090b;
+  --color-surface: #18181b;
+  --color-border: #27272a;
+  --color-foreground: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-accent: #ff5c00;
+  --color-accent-foreground: #fafafa;
+}

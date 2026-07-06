@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "../styles/tokens/index.css";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-full bg-background font-sans text-body text-foreground antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-foreground;
+  }
+}

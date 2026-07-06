@@ -1,0 +1,45 @@
+/**
+ * Typography scale for confident headings and comfortable body text.
+ * Semantic sizes complement Tailwind's default text-* utilities.
+ */
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --text-display: 3.75rem;
+  --text-display--line-height: 1.1;
+  --text-display--font-weight: 600;
+  --text-display--letter-spacing: -0.03em;
+
+  --text-heading-1: 3rem;
+  --text-heading-1--line-height: 1.15;
+  --text-heading-1--font-weight: 600;
+  --text-heading-1--letter-spacing: -0.025em;
+
+  --text-heading-2: 2.25rem;
+  --text-heading-2--line-height: 1.2;
+  --text-heading-2--font-weight: 600;
+  --text-heading-2--letter-spacing: -0.02em;
+
+  --text-heading-3: 1.5rem;
+  --text-heading-3--line-height: 1.3;
+  --text-heading-3--font-weight: 600;
+  --text-heading-3--letter-spacing: -0.015em;
+
+  --text-heading-4: 1.25rem;
+  --text-heading-4--line-height: 1.4;
+  --text-heading-4--font-weight: 600;
+
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75;
+
+  --text-body: 1rem;
+  --text-body--line-height: 1.625;
+
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1.5;
+
+  --text-caption: 0.75rem;
+  --text-caption--line-height: 1.4;
+  --text-caption--letter-spacing: 0.01em;
+}

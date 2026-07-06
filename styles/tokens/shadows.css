@@ -1,0 +1,10 @@
+/**
+ * Shadow tokens tuned for a dark, premium aesthetic.
+ * Subtle elevation without visual noise.
+ */
+@theme {
+  --shadow-surface: 0 0 0 1px rgb(39 39 42 / 0.6);
+  --shadow-elevated: 0 4px 24px rgb(0 0 0 / 0.4);
+  --shadow-overlay: 0 8px 40px rgb(0 0 0 / 0.5);
+  --shadow-accent-glow: 0 0 24px rgb(255 92 0 / 0.12);
+}
